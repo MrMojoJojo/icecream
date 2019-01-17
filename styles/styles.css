@@ -1,0 +1,71 @@
+body{
+	background-color: pink;
+	margin:0;
+	pading:0;
+	font-family: Arial, Helvetica, Sans-serif;
+	line-height: 1.5em;
+}
+
+.container {
+	width:80%;
+	margin: auto;
+}
+.showcase{
+	min-height: 400px;
+	text-align: center;
+	background-image: url('../images/th.jpeg');
+	background-size: cover;
+	color: red;
+	font-size: 1.3em;
+
+}
+.header{
+	min-height: 80px;
+	background-color: grey;
+	padding-top:15px;
+	border-bottom:solid 5px yellow;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.nav li {
+	list-style: none;
+	display: inline;
+	padding: 0 15px 0 15px;
+}
+.brand{
+	float: left;
+}
+.nav {
+	float: right;
+	margin-top: 10px;
+}
+.nav a:hover{
+	color: blue;
+	font-weight: bold;
+}
+.boxes{
+	margin-top:20px;
+	display: block;
+}
+.box img{
+	width:150px;
+}
+.box{
+	width: 30%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+footer{
+	clear:both;
+	background-color: indigo;
+	padding: 1em;
+}
+span{
+	background-color: white;
+	text-decoration-color: black;
+}
